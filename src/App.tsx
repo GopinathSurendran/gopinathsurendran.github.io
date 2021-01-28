@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Testing github CI CD.
+          Testing github CI CD
         </a>
       </header>
     </div>
