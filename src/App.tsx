@@ -1,12 +1,13 @@
 import * as React from 'react';
-import './App.scss';
+import './app.scss';
+import Layout from './containers/layout/layout';
+import Home from './containers/home/home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Test app
-      </header>
+      <Layout />
+      <Home />
     </div>
   );
 }
