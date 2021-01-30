@@ -7,3 +7,6 @@ This is my personal website code.
 <p>
 <b>CI/CD Setup:</b> https://dev.to/dyarleniber/setting-up-a-ci-cd-workflow-on-github-actions-for-a-react-app-with-github-pages-and-codecov-4hnp
 </p>
+<p>
+<b>Animation</b>: https://animate.style/
+</p>
