@@ -7,11 +7,17 @@ const Home = () => {
         <div className={classes.parallax}>
             <div className={`container ${classes.parallaxTextContainer}`}>
                 <div className={`${classes.userName}`}>
-                   <AnimationText text="Gopinath Surendran."/>
+                    <AnimationText type="rubberBand" text="Gopinath" />
+                    <span className="ml-3" />
+                    <AnimationText type="rubberBand" text="Surendran" />
                 </div>
                 <div className={classes.hr} />
                 <div className={classes.userDesc}>
-                    Full stack developer
+                    <AnimationText type="bounce" text="Full" />
+                    <span className="ml-2" />
+                    <AnimationText type="bounce" text="stack" />
+                    <span className="ml-2" />
+                    <AnimationText type="bounce" text="developer" />
                 </div>
             </div>
         </div>
