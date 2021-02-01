@@ -17,7 +17,7 @@ const Home = () => {
                     <span className="ml-2" />
                     <AnimationText type="bounce" text="stack" />
                     <span className="ml-2" />
-                    <AnimationText type="bounce" text="developer" />
+                    <AnimationText type="bounce" text="developer." />
                 </div>
             </div>
         </div>
