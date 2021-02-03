@@ -17,7 +17,7 @@ const Profile = () => {
                 </div>
                 </div>
                 <div className={classes.profileImage}>
-                    <img src={ProfileImage} alt="profile image" />
+                    <img src={ProfileImage} />
                 </div>
                 <div className="subSection">
                     <div className="header">Details</div>
