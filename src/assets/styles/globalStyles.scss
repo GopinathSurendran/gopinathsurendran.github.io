@@ -1,4 +1,32 @@
-:root {
-    --animate-duration: 800ms;
-    --animate-delay: 0.9s;
-  }
+@import "./variables.scss";
+
+body{
+    font-size: 16px;
+}
+
+.section {
+    border-bottom: 1px solid $border-color;
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+
+    .header {
+        font-size: 40px;
+        color: $primary-color;
+        margin-bottom: 20px;
+    }
+    .subHeader {
+        font-size: 25px;
+        color: #a4a4a8;
+    }
+}
+
+.subSection {
+    margin: 20px 0px;;
+
+    .header {
+        font-size: 30px;
+        color: $primary-color;
+        color: $primary-color;
+    }
+}
