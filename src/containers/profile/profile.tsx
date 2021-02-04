@@ -6,14 +6,14 @@ const Profile = () => {
     return (
         <div>
             <div className="gs-section">
-                <div className="gs-header">Profile</div>
-                <div className="gs-subHeader">I'm a full stack developer</div>
+                <h2 className="gs-header">Profile</h2>
+                <h5 className="gs-subHeader">I'm a full stack developer</h5>
             </div>
             <div className={"container"}>
                 <div className="row">
                     <div className="col-md-4">
                         <div className="gs-subSection">
-                            <div className="gs-header">About me</div>
+                            <h4 className="gs-header">About me</h4>
                             <div>
                                 I am a full stack developer with 6+ years of experience.
                                 I have good knowledge in front-end techniques.
@@ -21,14 +21,14 @@ const Profile = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-6">
+                    <div className="col-md-4">
                         <div className={classes.profileImage}>
                             <img src={ProfileImage} />
                         </div>
                     </div>
-                    <div className="col-md-4 col-6">
+                    <div className="col-md-4">
                         <div className="gs-subSection">
-                            <div className="gs-header">Details</div>
+                            <h4 className="gs-header">Details</h4>
                             <div>
                                 <div className={classes.label}>Name:</div>
                                 <div>Gopinath Surendran</div>

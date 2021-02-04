@@ -6,25 +6,35 @@ export type AnimationProps = {
     type?: string;
     className?: string;
     split?: string;
+    tag?: string;
+}
+
+export const animate = (x) => {
+    if (x.className.indexOf('animate__animated') !== -1) {
+        return;
+    }
+    x.classList.add("animate__animated");
+    x.classList.add(`animate__rubberBand`);
+    setTimeout(() => {
+        x.classList.remove("animate__animated");
+        x.classList.remove(`animate__rubberBand`);
+    }, 800);
 }
 
 const AnimationText = (props: AnimationProps) => {
 
     const onMouseEnter = (event) => {
-        if(event.target.className.indexOf('animate__animated') !== -1){
-            return;
-        }
-        event.target.classList.add("animate__animated");
-        event.target.classList.add(`animate__${props.type}`);
-        setTimeout(() => {
-            event.target.classList.remove("animate__animated");
-            event.target.classList.remove(`animate__${props.type}`);
-        }, 800);
+        animate(event.target);
     }
+
 
     return <>
         {props.text.split(props.split || "").map((x, i) => {
-            return <div key={i} onMouseEnter={onMouseEnter} className={`${classes.animateText} props.className`}>{x}</div>
+            const renderProps = { key: i, onMouseEnter, className: `${classes.animateText} ${props.className}` };
+            if (props.tag) {
+                return React.createElement(props.tag, renderProps, x);
+            }
+            return <div {...renderProps}>{x}</div>
         })
         }
     </>

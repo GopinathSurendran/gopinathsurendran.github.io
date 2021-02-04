@@ -1,8 +1,10 @@
-@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
 @import "./variables.scss";
 
-body {
-    font-size: 16px;
+html {
+    font-size: 20px;
 }
 
 .gs-section {
@@ -12,30 +14,22 @@ body {
     margin-bottom: 20px;
 
     .gs-header {
-        font-size: 40px;
         color: $primary-color;
+        font-weight: normal;
         margin-bottom: 20px;
     }
 
     .gs-subHeader {
-        font-size: 25px;
         color: #a4a4a8;
+        font-weight: normal;
     }
 }
 
 .gs-subSection {
     margin: 20px 0px;
-    ;
 
     .gs-header {
-        font-size: 30px;
         color: $primary-color;
-        color: $primary-color;
-    }
-}
-
-@include media-breakpoint-down(md) {
-    body {
-        font-size: 14px;
+        font-weight: normal;
     }
 }

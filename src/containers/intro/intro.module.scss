@@ -13,17 +13,15 @@
   display: flex;
   text-align: center;
 
-  .userName {
-    font-size: 56px;
-    font-weight: bold;
+  .textContainer {
+    @include media-breakpoint-down(sm) {
+      margin-left: -10vw;
+    }
+
+    .hr {
+      border-top: 1px solid black;
+      margin: 20px;
+    }
   }
 
-  .hr {
-    border-top: 1px solid black;
-    margin: 20px;
-  }
-
-  .userDesc {
-    font-size: 26px;
-  }
 }
