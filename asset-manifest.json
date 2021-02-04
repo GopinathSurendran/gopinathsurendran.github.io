@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.74c75582.chunk.css",
-    "main.js": "/static/js/main.ca2baccf.chunk.js",
-    "main.js.map": "/static/js/main.ca2baccf.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8d4731ae.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8d4731ae.js.map",
-    "static/css/2.cc77c331.chunk.css": "/static/css/2.cc77c331.chunk.css",
-    "static/js/2.9552bf60.chunk.js": "/static/js/2.9552bf60.chunk.js",
-    "static/js/2.9552bf60.chunk.js.map": "/static/js/2.9552bf60.chunk.js.map",
-    "static/js/3.ff49afaa.chunk.js": "/static/js/3.ff49afaa.chunk.js",
-    "static/js/3.ff49afaa.chunk.js.map": "/static/js/3.ff49afaa.chunk.js.map",
+    "main.css": "/static/css/main.c998d32a.chunk.css",
+    "main.js": "/static/js/main.b2bab0d1.chunk.js",
+    "main.js.map": "/static/js/main.b2bab0d1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9fa2f1a7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9fa2f1a7.js.map",
+    "static/css/2.1f273047.chunk.css": "/static/css/2.1f273047.chunk.css",
+    "static/js/2.d22c0efe.chunk.js": "/static/js/2.d22c0efe.chunk.js",
+    "static/js/2.d22c0efe.chunk.js.map": "/static/js/2.d22c0efe.chunk.js.map",
+    "static/js/3.751c4abd.chunk.js": "/static/js/3.751c4abd.chunk.js",
+    "static/js/3.751c4abd.chunk.js.map": "/static/js/3.751c4abd.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.cc77c331.chunk.css.map": "/static/css/2.cc77c331.chunk.css.map",
-    "static/css/main.74c75582.chunk.css.map": "/static/css/main.74c75582.chunk.css.map",
-    "static/js/2.9552bf60.chunk.js.LICENSE.txt": "/static/js/2.9552bf60.chunk.js.LICENSE.txt",
+    "static/css/2.1f273047.chunk.css.map": "/static/css/2.1f273047.chunk.css.map",
+    "static/css/main.c998d32a.chunk.css.map": "/static/css/main.c998d32a.chunk.css.map",
+    "static/js/2.d22c0efe.chunk.js.LICENSE.txt": "/static/js/2.d22c0efe.chunk.js.LICENSE.txt",
     "static/media/intro.module.scss": "/static/media/desk_tablet.e6bedc2b.jpg",
     "static/media/profile.79da0835.png": "/static/media/profile.79da0835.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8d4731ae.js",
-    "static/css/2.cc77c331.chunk.css",
-    "static/js/2.9552bf60.chunk.js",
-    "static/css/main.74c75582.chunk.css",
-    "static/js/main.ca2baccf.chunk.js"
+    "static/js/runtime-main.9fa2f1a7.js",
+    "static/css/2.1f273047.chunk.css",
+    "static/js/2.d22c0efe.chunk.js",
+    "static/css/main.c998d32a.chunk.css",
+    "static/js/main.b2bab0d1.chunk.js"
   ]
 }
