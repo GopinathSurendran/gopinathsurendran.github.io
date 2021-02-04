@@ -1,30 +1,29 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
 .parallax {
-    background-image: url("../../assets/images/desk_tablet.jpg");
-    min-height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    display: flex;
-  
-    .parallaxTextContainer {
-      margin: auto;
-      max-width: 600px;
-      text-align: center;
-  
-      .userName {
-        font-size: 56px;
-        font-weight: bold;
-      }
-  
-      .hr {
-        border-top: 1px solid black;
-        margin: 20px;
-      }
-  
-      .userDesc {
-        font-size: 26px;
-      }
-    }
+  background-image: url("../../assets/images/desk_tablet.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  position: relative;
+  display: flex;
+  text-align: center;
+
+  .userName {
+    font-size: 56px;
+    font-weight: bold;
   }
+
+  .hr {
+    border-top: 1px solid black;
+    margin: 20px;
+  }
+
+  .userDesc {
+    font-size: 26px;
+  }
+}

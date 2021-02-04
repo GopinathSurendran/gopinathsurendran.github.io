@@ -1,32 +1,41 @@
+@import "node_modules/bootstrap/scss/bootstrap";
 @import "./variables.scss";
 
-body{
+body {
     font-size: 16px;
 }
 
-.section {
+.gs-section {
     border-bottom: 1px solid $border-color;
     text-align: center;
     padding: 20px 0px;
     margin-bottom: 20px;
 
-    .header {
+    .gs-header {
         font-size: 40px;
         color: $primary-color;
         margin-bottom: 20px;
     }
-    .subHeader {
+
+    .gs-subHeader {
         font-size: 25px;
         color: #a4a4a8;
     }
 }
 
-.subSection {
-    margin: 20px 0px;;
+.gs-subSection {
+    margin: 20px 0px;
+    ;
 
-    .header {
+    .gs-header {
         font-size: 30px;
         color: $primary-color;
         color: $primary-color;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    body {
+        font-size: 14px;
     }
 }

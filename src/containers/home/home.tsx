@@ -6,8 +6,14 @@ import Profile from '../profile/profile';
 const Home = () => {
     return <div>
         <Intro />
-        <div className={classes.container}>
-            <Profile />
+        <div className={"container px-4"}>
+            <div className="row">
+                <div className="col-lg-2" />
+                <div className="col-lg-8">
+                    <Profile />
+                </div>
+                <div className="col-lg-2" />
+            </div>
         </div>
     </div>
 }

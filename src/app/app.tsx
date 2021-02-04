@@ -1,11 +1,11 @@
 import * as React from 'react';
-import './app.scss';
+import classes from './app.module.scss';
 import Layout from '../containers/layout/layout';
 import Home from '../containers/home/home';
 
 function App() {
   return (
-    <div className="App">
+    <div className={classes.app}>
       <Layout />
       <Home />
     </div>
