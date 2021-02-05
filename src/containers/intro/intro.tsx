@@ -17,9 +17,9 @@ const Intro = () => {
 
     return (
         <div className={classes.parallax}>
-            <div className={`container d-flex`}>
+            <div className={`${classes.textContainer} container d-flex`}>
                 <div className="m-auto">
-                    <div className={classes.textContainer}>
+                    <div className={classes.textContent}>
                         <div id="intro-user-name">
                             <div className="d-md-none col-md-6"><AnimationText type="rubberBand" tag="h1" text="Gopinath" /></div>
                             <div className="d-md-none col-md-6"><AnimationText type="rubberBand" tag="h1" text="Surendran" /></div>
