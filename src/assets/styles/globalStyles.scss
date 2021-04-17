@@ -4,7 +4,7 @@
 @import "./variables.scss";
 
 html {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .gs-section {
@@ -20,7 +20,7 @@ html {
     }
 
     .gs-subHeader {
-        color: #a4a4a8;
+        color: #1d1d1d9e;
         font-weight: normal;
     }
 }
@@ -32,4 +32,8 @@ html {
         color: $primary-color;
         font-weight: normal;
     }
+}
+
+.border {
+    border-bottom: 1px solid $border-color;
 }

@@ -8,6 +8,8 @@ import 'animate.css/animate.min.css';
 
 import './assets/styles/globalStyles.scss';
 
+import './utitlity/general.js';
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
