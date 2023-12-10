@@ -6,10 +6,10 @@ export const skills = [
     },
     {
         name: 'Angular',
-        stars: 5,
+        stars: 4,
     },
     {
-        name: 'Angular JS',
+        name: 'HTML / CSS',
         stars: 5,
     },
     {
@@ -17,11 +17,15 @@ export const skills = [
         stars: 5,
     },
     {
-        name: 'Redux',
+        name: 'SASS',
         stars: 5,
     },
     {
-        name: 'SQL',
+        name: 'Redux JS, Redux Form',
+        stars: 5,
+    },
+    {
+        name: 'Responsive Design',
         stars: 5,
     },
     {
@@ -29,19 +33,11 @@ export const skills = [
         stars: 4,
     },
     {
-        name: 'HTML 5',
+        name: 'Prime React, Ag Grid',
         stars: 4,
     },
     {
-        name: 'CSS 3',
-        stars: 4,
-    },
-    {
-        name: 'SASS',
-        stars: 4,
-    },
-    {
-        name: 'Bootstrap 4',
+        name: 'Node JS',
         stars: 4,
     },
     {
@@ -49,24 +45,8 @@ export const skills = [
         stars: 4,
     },
     {
-        name: 'LINQ',
+        name: 'SQL',
         stars: 4,
-    },
-    {
-        name: 'Vue JS',
-        stars: 3,
-    },
-    {
-        name: 'Dot Net MVC',
-        stars: 3,
-    },
-    {
-        name: 'Entitiy Framework',
-        stars: 3,
-    },
-    {
-        name: 'React Native',
-        stars: 3,
     }
 ];
 
@@ -93,7 +73,7 @@ export const languages = [
     },
     {
         name: 'Hindi',
-        stars: 3
+        stars: 2
     },
 ];
 
@@ -101,19 +81,19 @@ export const tools = [
     {
         name: 'Visual Studio Code',
         stars: 5
-    },{
+    }, {
         name: 'Visual Studio',
         stars: 5
-    },{
+    }, {
         name: 'SSMS',
         stars: 5
-    },{
+    }, {
         name: 'Azure DevOps',
         stars: 4
-    },{
+    }, {
         name: 'GitHub',
         stars: 4
-    },{
+    }, {
         name: 'VSTS',
         stars: 3
     }

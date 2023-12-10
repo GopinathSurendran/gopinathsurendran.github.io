@@ -24,7 +24,7 @@ const Intro = () => {
 
     return (
         <div className={classes.parallax}>
-            <button className={`btn btn-primary ${classes.resumeBtn}`} onClick={downloadResume}>One page Resume</button>
+            <button className={`btn btn-primary ${classes.resumeBtn}`} onClick={downloadResume}>Download Resume</button>
             <div className={`${classes.textContainer} container d-flex`}>
                 <div className="m-auto">
                     <div className={classes.textContent}>
@@ -41,6 +41,7 @@ const Intro = () => {
                         <AnimationText type="bounce" className={classes.desc} text="My" />
                         <span className="me-2" />
                         <AnimationText type="bounce" className={classes.desc} text="resume" />
+                        <div>Scroll down to see more details...</div>
                     </div>
                 </div>
             </div>

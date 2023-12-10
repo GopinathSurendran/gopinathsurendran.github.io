@@ -34,9 +34,10 @@
   }
 
   .resumeBtn {
-    position: absolute;
+    position: fixed;
     right: 50px;
     top: 50px;
+    z-index: 10;
   }
 
 }

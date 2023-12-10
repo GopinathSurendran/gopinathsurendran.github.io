@@ -13,7 +13,7 @@ export const educations = [
         name: 'PUC - Pre University Courses',
         duration: 'Jun 2008 - April 2010',
         description: 'The main subjects that I studied are Physics, Chemistry, Maths and Computer Science. My overall percentage in PUC is 85%',
-        location: 'Kodailbail, Mangalore, Karnataka, India',
+        location: 'Mangalore, Karnataka, India',
         link: ''
     }
 ];
@@ -21,10 +21,27 @@ export const educations = [
 export const careers = [
     {
         title: 'Infosys Limited',
+        name: 'Digital Specialist Engineer',
+        duration: 'March 2018 - Present',
+        description: '',
+        notes: ["Utilized React frameworks to create interactive, responsive, and user - friendly web applications.",
+            "Optimized websites for maximum speed, performance, and scalability, while also ensuring compatibility with various browsers and devices.",
+            "Developed and maintained reusable UI components by wrapping third-party UI library components",
+            "Investigated and resolved technical issues related to front-end development.",
+            "Participated in code reviews, feature planning, and design reviews."],
+        location: 'Toronto, Canada.',
+        link: ''
+    },
+    {
+        title: 'Infosys Limited',
         name: 'Technology Analyst',
         duration: 'Jun 2014 - current',
-        description: 'Over the years I worked with different roles, starting from Systems Engineer trainee, Systems Engineer, Senior Systems Engineer. Currently working as Technology Analyst. I work for a client called PwC. The domain is auditing. I have worked on 5 different projects in agile methodology involving technologies like Angular, .Net MVC framework, SQL. Currently I work with team of 10 plus members and the technologies are React JS, .NET web api, .NET core, SQL, SASS, LINQ',
-        location: 'Mangalore, India. & Toronto, Canada',
+        description: '',
+        notes: ["Developed front-end user interfaces for several complex web applications with Angular, HTML, CSS, and TypeScript.",
+            "Troubleshot and resolved complex technical issues promptly.",
+            "Participated in the full software development life cycle, from requirements gathering to final deployment.",
+            "Collaborated with designers and back-end developers to ensure a successful integration of web applications."],
+        location: 'Mangalore, India.',
         link: ''
     },
 ]

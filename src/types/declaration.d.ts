@@ -1,3 +1,3 @@
 declare interface Date {
-    gsToDateString: (ago?: boolean) => string;
+    gsToDateString: (ago?: boolean, onlyYear?: boolean) => string;
 }

@@ -11,6 +11,15 @@
     }
 }
 
-.label {
-    font-weight: bold;
+.field {
+    display: flex;
+
+    .label {
+        font-weight: bold;
+        min-width: 100px;
+    }
+
+    .value {
+        flex-grow: 1;
+    }
 }
