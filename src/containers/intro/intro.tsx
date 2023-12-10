@@ -18,7 +18,7 @@ const Intro = () => {
     const downloadResume = () => {
         var link = document.createElement('a');
         link.href = 'GopinathSurendranResume.pdf';
-        link.download = 'file.pdf';
+        link.download = 'GopinathSurendranResume.pdf';
         link.dispatchEvent(new MouseEvent('click'));
     }
 
