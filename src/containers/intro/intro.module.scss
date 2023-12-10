@@ -15,12 +15,28 @@
 
   .textContainer {
     z-index: 2;
+
     .textContent {
       .hr {
         border-top: 1px solid black;
         margin: 20px;
       }
     }
+  }
+
+  .title {
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  .desc {
+    font-size: 30px;
+  }
+
+  .resumeBtn {
+    position: absolute;
+    right: 50px;
+    top: 50px;
   }
 
 }

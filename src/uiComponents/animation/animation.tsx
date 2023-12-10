@@ -21,7 +21,7 @@ export const animate = (x: any) => {
     }, 800);
 }
 
-const AnimationText = (props: AnimationProps) => {
+const AnimationText: React.FunctionComponent<AnimationProps> = ({ tag = "div", split, className, text }) => {
 
     const onMouseEnter = (event: any) => {
         animate(event.target);
@@ -29,10 +29,10 @@ const AnimationText = (props: AnimationProps) => {
 
 
     return <>
-        {props.text.split(props.split || "").map((x, i) => {
-            const renderProps = { key: i, onMouseEnter, className: `${classes.animateText} ${props.className}` };
-            if (props.tag) {
-                return React.createElement(props.tag, renderProps, x);
+        {text.split(split || "").map((x, i) => {
+            const renderProps = { key: i, onMouseEnter, className: `${classes.animateText} ${className}` };
+            if (tag) {
+                return React.createElement(tag, renderProps, x);
             }
             return <div {...renderProps}>{x}</div>
         })

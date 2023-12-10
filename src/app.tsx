@@ -1,6 +1,7 @@
 import classes from './app.module.scss';
 import Layout from './containers/layout/layout';
-import Home from './containers/home/home';
+import { RouterProvider } from 'react-router-dom';
+import router from './app.router';
 
 function App() {
 
@@ -8,7 +9,7 @@ function App() {
     <div className={classes.app}>
       <Layout />
       <div className={classes.container}>
-        <Home />
+        <RouterProvider router={router} />
       </div>
     </div>
   )

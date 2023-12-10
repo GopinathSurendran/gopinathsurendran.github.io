@@ -15,24 +15,32 @@ const Intro = () => {
         });
     }, [])
 
+    const downloadResume = () => {
+        var link = document.createElement('a');
+        link.href = 'GopinathSurendranResume.pdf';
+        link.download = 'file.pdf';
+        link.dispatchEvent(new MouseEvent('click'));
+    }
+
     return (
         <div className={classes.parallax}>
+            <button className={`btn btn-primary ${classes.resumeBtn}`} onClick={downloadResume}>One page Resume</button>
             <div className={`${classes.textContainer} container d-flex`}>
                 <div className="m-auto">
                     <div className={classes.textContent}>
                         <div id="intro-user-name">
-                            <div className="d-md-none col-md-6"><AnimationText type="rubberBand" tag="h1" text="Gopinath" /></div>
-                            <div className="d-md-none col-md-6"><AnimationText type="rubberBand" tag="h1" text="Surendran" /></div>
+                            <div className="d-md-none col-md-6"><AnimationText type="rubberBand" className={classes.title} text="Gopinath" /></div>
+                            <div className="d-md-none col-md-6"><AnimationText type="rubberBand" className={classes.title} text="Surendran" /></div>
                         </div>
                         <div className="d-none d-md-block" >
-                            <AnimationText type="rubberBand" tag="h1" text="Gopinath" />
+                            <AnimationText type="rubberBand" className={classes.title} text="Gopinath" />
                             <span className="me-2" />
-                            <AnimationText type="rubberBand" tag="h1" text="Surendran" />
+                            <AnimationText type="rubberBand" className={classes.title} text="Surendran" />
                         </div>
                         <div className={classes.hr} />
-                        <AnimationText type="bounce" tag="h4" text="My" />
+                        <AnimationText type="bounce" className={classes.desc} text="My" />
                         <span className="me-2" />
-                        <AnimationText type="bounce" tag="h4" text="resume" />
+                        <AnimationText type="bounce" className={classes.desc} text="resume" />
                     </div>
                 </div>
             </div>
