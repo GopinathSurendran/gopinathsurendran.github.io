@@ -34,7 +34,7 @@ export const careers = [
     },
     {
         title: 'Infosys Limited',
-        name: 'Technology Analyst',
+        name: 'Senior Systems Engineer',
         duration: 'Jun 2014 - current',
         description: '',
         notes: ["Developed front-end user interfaces for several complex web applications with Angular, HTML, CSS, and TypeScript.",
